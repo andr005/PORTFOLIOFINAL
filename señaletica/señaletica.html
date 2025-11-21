@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Porfolio André Chéchile proyecto final</title>
+  <!-- Enlace a la tipografía Inter desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="señaletica.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <h1>André Chéchile</h1>
+  <nav>
+    <a href="#hero"><a href="../index.html">INICIO</a></a>
+    <a href="#about">DESCRIPCIÓN</a>
+    <a href="#portfolio">TIPO DE SEÑALETICA</a>
+    <a href="#contact">CONTACTO</a>
+  </nav>
+</header>
+
+<!-- ===== HERO / INICIO ===== -->
+<section id="hero">
+</section>
+
+<!-- ===== SOBRE MI ===== -->
+<section id="about">
+<center><h2>Descripción</h2></center> 
+ <p><b>Situación</b> <br>
+El Yacht Club Paysandú se encuentra en proceso de crecimiento institucional,
+ pero su señalética actual presenta deterioro, inconsistencia visual y falta 
+ de legibilidad. Esto genera confusión en los usuarios, desorden en los flujos de
+  circulación y dependencia constante del personal para orientar a socios y visitantes.
+   La mezcla de materiales, estilos y mensajes improvisados afecta tanto la experiencia
+    general como la imagen institucional del club.</p>
+    <br>
+  <p><b>Tarea</b> <br>
+El proyecto debía desarrollar un sistema de señalética integral que unificara 
+la identidad visual, mejorara la orientación interna y respondiera a las necesidades 
+de distintos usuarios. Además, debía integrar materiales resistentes al entorno náutico 
+y organizar la información de forma clara, moderna y accesible, reduciendo la polución
+ visual y la sobrecarga del personal.</p>
+ <br>
+  <p><b>Acción</b> <br>
+Se realizó un relevamiento completo del predio, analizando historia, identidad,
+ servicios, circulación de usuarios y estado de la señalética existente.
+  A partir de esto se definió un partido conceptual basado en los valores
+   moderno, resistente, práctico, amigable y accesible. Se diseñó una identidad
+    visual renovada con paleta cromática, tipografías y pictogramas unificados. 
+    Luego se programó la señalética por categorías (informativa, direccional,
+     reguladora, nomencladora y ornamental), seleccionando materiales adecuados 
+     como acero corten, alucobond y sintra, y elaborando fichas técnicas de cada
+      pieza con medidas y ubicaciones.</p>
+      <br>
+  <p><b>Resultado</b> <br>
+  El proyecto dio como resultado un sistema de señalética claro, coherente y funcional, 
+  capaz de ordenar la circulación, reducir la confusión y transmitir una imagen institucional 
+  moderna y profesional. La nueva identidad visual mejora la experiencia de socios, visitantes
+   y empleados, incrementa la seguridad y permite una integración estética con el entorno natural 
+   del club. Además, deja una base sólida para futuras ampliaciones sin perder coherencia gráfica.</p>
+</section>
+
+<!-- ===== PORTAFOLIO ===== -->
+<section id="portfolio">
+  <h2>Tipos de señaletica</h2>
+  <div class="grid">
+    <!-- Cada div.work representa un proyecto. data-project se usa para JS -->
+    <div class="work" data-project="1"><img src="img/nomencladora/NOMENCLADORA.png" alt="Proyecto 1"><p>Nomencladoras</p></div>
+    <div class="work" data-project="2"><img src="img/direccionales/DIRECCIONALES.png" alt="Proyecto 2"><p>Dirrecionales</p></div>
+    <div class="work" data-project="3"><img src="img/reguladoras/REGULADORAS.png" alt="Proyecto 3"><p>Reguladoras</p></div>
+    <div class="work" data-project="4"><img src="img/informativas/INFORMATIVA.png" alt="Proyecto 3"><p>Informativas</p></div>
+
+  </div>
+</section>
+<!-- ===== CONTACTO ===== -->
+<section id="contact">
+  <h2>Contacto</h2>
+  <form action="https://formspree.io/f/tu_form_id" method="POST">
+    <input type="text" name="name" placeholder="Nombre" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Mensaje" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p>© 2025 Tu Nombre | Diseñador Gráfico</p>
+</footer>
+
+<!-- ===== MODAL PARA CARRUSEL ===== -->
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+    <div class="carousel">
+      <button class="prev">&#10094;</button>
+      <img id="carousel-img" src="" alt="">
+      <button class="next">&#10095;</button>
+    </div>
+
+    <p id="project-description"></p>
+
+    <!-- 🔹 BOTÓN QUE LLEVA A OTRA PÁGINA -->
+    <a id="project-link" href="#" class="open-project-btn" target="_blank">Ver proyecto completo</a>
+  </div>
+</div>
+
+
+<!-- JS -->
+<script src="señaletica.js"></script>
+</body>
+</html>
