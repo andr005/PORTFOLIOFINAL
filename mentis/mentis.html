@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Porfolio André Chéchile proyecto final</title>
+  <!-- Enlace a la tipografía Inter desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="mentis.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <h1>André Chéchile</h1>
+  <nav>
+    <a href="#hero"><a href="../index.html">INICIO</a></a>
+    <a href="#about">DESCRIPCIÓN</a>
+    <a href="#portfolio">TRABAJO</a>
+    <a href="#contact">CONTACTO</a>
+  </nav>
+</header>
+
+<!-- ===== HERO / INICIO ===== -->
+<section id="hero">
+</section>
+
+<!-- ===== SOBRE MI ===== -->
+<section id="about">
+<center><h2>Mentis Clara </h2></center> 
+ <p><b>Situación</b><br>
+
+En muchos barrios y centros educativos se detecta una creciente
+ demanda de apoyo emocional: jóvenes y adultos que atraviesan estrés,
+  ansiedad, duelos o situaciones de vulnerabilidad sin acceso a recursos 
+  terapéuticos constantes. Al mismo tiempo, estudiantes avanzados de
+   Psicología buscan experiencias prácticas supervisadas que les permitan 
+   aplicar y consolidar herramientas psicoeducativas de forma segura. 
+   Este doble vacío —demanda comunitaria y necesidad formativa 
+   supervisada— generó la oportunidad para diseñar un dispositivo 
+   de intervención preventiva, accesible y grupal. <br><br>
+  <b>Tarea</b><br>
+  Nuestro objetivo fue crear un programa replicable de
+   talleres psicoeducativos y espacios de escucha grupal
+    que cumpliese tres requisitos simultáneos:
+    <br><br><b>1_</b> Ofrecer contención y herramientas prácticas a personas en situación de vulnerabilidad. <br><br>
+     <b>2_</b>Garantizar la seguridad y la calidad clínica mediante supervisión profesionalbr
+     <br><br>
+      <b>3_</b> Servir como escenario formativo para estudiantes avanzados de Psicología.
+       Además, la intervención debía ser escalable, comunicable a instituciones y
+        coherente con una identidad visual y comunicativa que transmitiera confianza y calidez.
+      <br> <br>
+    <b>Acción</b><br>
+  Diseñamos una propuesta integral: desarrollamos el contenido de los talleres
+   (temáticas, dinámicas y materiales psicoeducativos), definimos protocolos de 
+   seguridad y derivación, y organizamos un esquema de supervisión profesional 
+   para cada grupo de estudiantes facilitadores. Paralelamente construimos la
+    identidad visual (logo, paleta, tipografías y manual de marca) para generar
+     confianza institucional y facilitar el acceso comunitario. Implementamos
+      pilotos en entornos educativos y comunitarios, recopilando retroalimentación
+       cualitativa y cuantitativa para ajustar duración, tamaño de los grupos y recursos didácticos.
+      <br><br>
+      <b>Resultado</b><br>
+      Como resultado, se consolidó un formato operativo de talleres psicoeducativos replicable y seguro:
+       grupos de 8–15 participantes, sesiones de 60–90 minutos, material psicoeducativo estandarizado
+        y un protocolo claro de supervisión y derivación. Los pilotos mostraron mejoras en la 
+        percepción de apoyo social y en herramientas de regulación emocional entre los asistentes, 
+        además de aportar experiencia práctica valiosa a los estudiantes y reforzar alianzas con 
+        instituciones locales. La identidad visual y el manual permitieron comunicar el proyecto con
+         coherencia y profesionalismo, facilitando la escalabilidad y la búsqueda de nuevas colaboraciones.
+    </p>
+</section>
+
+<section id="about">
+<center><h2>Sobre Mentis Clara </h2></center> 
+ <p><b>Misión</b><br>
+Ofrecer espacios psicoeducativos de contención emocional y escucha activa, 
+orientados a la comunidad, guiados por estudiantes avanzados de Psicología con
+ supervisión profesional. Promovemos la salud mental desde un enfoque humano, 
+ accesible y preventivo, brindando herramientas que acompañen procesos personales
+  en un entorno en grupos para que las personas se sientan seguras.</p>
+  <br>
+  <p><b>Visión</b><br>
+  Ser una red de apoyo emocional reconocida por su compromiso ético,
+   calidez humana y capacidad de generar impacto en la comunidad. 
+   Aspiramos a iluminar procesos internos y fortalecer el lazo entre 
+   la formación profesional y las necesidades reales de las personas,
+    promoviendo una cultura de cuidado mutuo y escucha consciente.</p>
+</section>
+
+<!-- ===== PORTAFOLIO ===== -->
+<div class="logo">
+  <img src="img/logoo.png" alt="">
+</div>
+
+<section id="portfolio">
+  <h2>TRABAJOS</h2>
+  <div class="grid">
+    <!-- Cada div.work representa un proyecto. data-project se usa para JS -->
+ <div class="work" data-project="1"><img src="img/camisa.png" alt="Proyecto 1"><p>Afiches Urbanos</p></div>
+    <div class="work" data-project="2"><img src="img/fachada.png" alt="Proyecto 2"><p>Portadas de libros</p></div>
+    <div class="work" data-project="3"><img src="img/gorra.png" alt="Proyecto 3"><p>Diseño de packaging</p></div>
+
+  </div>
+</section>
+
+
+<!-- ===== CONTACTO ===== -->
+<section id="contact">
+  <h2>Contacto</h2>
+  <form action="https://formspree.io/f/tu_form_id" method="POST">
+    <input type="text" name="name" placeholder="Nombre" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Mensaje" required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <p>© 2025 Tu Nombre | Diseñador Gráfico</p>
+</footer>
+
+<!-- ===== MODAL PARA CARRUSEL ===== -->
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+
+    <div class="carousel">
+      <button class="prev">&#10094;</button>
+      <img id="carousel-img" src="" alt="">
+      <button class="next">&#10095;</button>
+    </div>
+
+    <p id="project-description"></p>
+
+    <!-- 🔹 BOTÓN QUE LLEVA A OTRA PÁGINA -->
+    <a id="project-link" href="#" class="open-project-btn" target="_blank">Ver proyecto completo</a>
+  </div>
+</div>
+
+
+<!-- JS -->
+<script src="mentis.js"></script>
+</body>
+</html>
